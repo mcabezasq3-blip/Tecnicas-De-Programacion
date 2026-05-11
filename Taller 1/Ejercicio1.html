@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de inventario en una tienda de abarrotes</title>
+</head>
+<body>
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th colspan="2">Control de Inventario</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dimension</td>
+                <td>
+                    <select name="" id="id-select-precios">
+                        <option value="5" selected>5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
 
+                    </select>
+                </td>
+            </tr>
+             <tr>
+               <td colspan="2" align="center">
+            <button id="id-btn-cargar-precios">Cargar Precio</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="">Presentar:</button>
+                </td>
+                <td>
+                    <textarea name="" id="id-listado-precios" rows="5" readonly>
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="id-btn-calcular-total">C. Total</button>
+                </td>
+                <td>
+                    <input type="text" value="" id="id-txt-total" placeholder="0.00" readonly>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+           
+        </tfoot>
+    </table>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
